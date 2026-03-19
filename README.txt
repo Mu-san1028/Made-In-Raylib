@@ -3,7 +3,7 @@ UTF-8
 ## コンパイル方法
 ディレクトリの構成は次の通りです。
 
-Game/
+Made-In-Raylib/
 ├── game.c              # メインのゲームソースコード
 ├── CMakeLists.txt      # CMake設定ファイル
 ├── README.txt          # このファイル
@@ -16,14 +16,15 @@ Game/
     ├── game           # コンパイル済み実行ファイル
     └── Makefile       # 生成されたMakefile
 
-・Gameディレクトリ内にbuildディレクトリがない場合に限り、次のコマンドを実行してください。
-cd Game
+・Made-In-Raylibディレクトリ内にbuildディレクトリがない場合に限り、次のコマンドを実行してください。
+cd Made-In-Raylib (すでにこのディレクトリにいる場合は実行しなくてOK)
 mkdir build
 cd build
 cmake ..
 make
 
-・Gameディレクトリにいる状況で、次の方法でコンパイルしてください。できない場合は、buildディレクトリを消去して上のコマンドを実行してください。
+・Gameディレクトリにいる状況で、次の方法でコンパイルしてください。Githubにおいてあるbuildディレクトリではスコアが63から始まる等の不具合が発生する場合があります。
+　その場合は、buildディレクトリを消去して上のコマンドを実行してください。
 cd build && make && cd .. && ./build/game
 または
 ./build/game
