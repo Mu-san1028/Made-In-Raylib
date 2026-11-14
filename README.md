@@ -4,7 +4,9 @@
 
 ## プレイ動画
 
-https://github.com/user-attachments/assets/9aa72cac-d896-4698-a670-be7a735d03a6
+
+
+https://github.com/user-attachments/assets/81f5a037-04b9-425f-94d2-4ba2ab8e51dd
 
 ## ここが面白いぞ！
 ### 様々なミニゲームで、頭と手を切り替える！
